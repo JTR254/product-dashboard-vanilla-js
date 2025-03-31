@@ -43,8 +43,9 @@ function displayProducts(products) {
 });
 };
 
-function handleError(error) {
-    console.log('Error fetching products:', error)
+// Task 5 - Add reusable handleError function
+function handleError(error) { // creates function that displays a message when an error occurs
+    console.log('An error has occurred:', error)
 };
 
 
