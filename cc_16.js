@@ -48,6 +48,11 @@ function handleError(error) { // creates function that displays a message when a
     console.log('An error has occurred:', error)
 };
 
+// Task 6 - Trigger both fetch methods at script load
+ 
+fetchProductsThen(); // calls function
+fetchProductsAsync(); // calls function
+
 
 
 
